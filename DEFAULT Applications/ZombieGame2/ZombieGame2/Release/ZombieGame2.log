@@ -1,0 +1,18 @@
+﻿Der Buildvorgang wurde am 18.01.2016 21:50:07 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame2\ZombieGame2\ZombieGame2.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp main.cpp
+         Game.cpp
+         main.cpp
+       Link:
+         D:\VirsualStudio2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame2\Release\ZombieGame2.exe" /NOLOGO "sfml-main.lib" "sfml-window.lib" "sfml-system.lib" "sfml-graphics.lib" GESFML.lib Box2D.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame2\Release\ZombieGame2.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame2\Release\ZombieGame2.lib" /MACHINE:X86 /SAFESEH Release\Game.obj
+         Release\main.obj
+         Code wird generiert.
+         All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Codegenerierung ist abgeschlossen.
+         ZombieGame2.vcxproj -> C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame2\Release\ZombieGame2.exe
+     1>Die Erstellung von Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame2\ZombieGame2\ZombieGame2.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:00.24

@@ -1,0 +1,46 @@
+﻿Der Buildvorgang wurde am 25.11.2015 22:07:51 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame\ZombieGame\ZombieGame.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\C# 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainGame.cpp main.cpp
+         main.cpp
+         MainGame.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\zombiegame\zombiegame\maingame.cpp(46): warning C4244: 'Argument': Konvertierung von 'Sint32' in 'float', möglicher Datenverlust
+         Code wird generiert...
+       Link:
+         D:\C# 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame\Debug\ZombieGame.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib opengl32.lib glew32.lib GE2D.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame\Debug\ZombieGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame\Debug\ZombieGame.lib" /MACHINE:X86 Debug\Agent.obj
+         Debug\Bullet.obj
+         Debug\Gun.obj
+         Debug\Human.obj
+         Debug\Level.obj
+         Debug\main.obj
+         Debug\MainGame.obj
+         Debug\Player.obj
+         Debug\Zombie.obj
+     1>GE2D.lib(Window.obj) : error LNK2038: Konflikt ermittelt für "_MSC_VER": Der Wert "1900" stimmt nicht mit dem Wert "1800" in main.obj überein.
+     1>GE2D.lib(GLSLProgram.obj) : error LNK2038: Konflikt ermittelt für "_MSC_VER": Der Wert "1900" stimmt nicht mit dem Wert "1800" in main.obj überein.
+     1>GE2D.lib(Camera2D.obj) : error LNK2038: Konflikt ermittelt für "_MSC_VER": Der Wert "1900" stimmt nicht mit dem Wert "1800" in main.obj überein.
+     1>GE2D.lib(InputManager.obj) : error LNK2038: Konflikt ermittelt für "_MSC_VER": Der Wert "1900" stimmt nicht mit dem Wert "1800" in main.obj überein.
+     1>GE2D.lib(Errors.obj) : error LNK2038: Konflikt ermittelt für "_MSC_VER": Der Wert "1900" stimmt nicht mit dem Wert "1800" in main.obj überein.
+     1>msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: __thiscall std::_Container_base12::_Container_base12(void)" (??0_Container_base12@std@@QAE@XZ) ist bereits in GE2D.lib(Window.obj) definiert.
+     1>msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: __thiscall std::_Container_base12::~_Container_base12(void)" (??1_Container_base12@std@@QAE@XZ) ist bereits in GE2D.lib(Window.obj) definiert.
+     1>msvcprtd.lib(MSVCP120D.dll) : error LNK2005: "public: void __thiscall std::_Container_base12::_Orphan_all(void)" (?_Orphan_all@_Container_base12@std@@QAEXXZ) ist bereits in GE2D.lib(Window.obj) definiert.
+     1>GE2D.lib(Window.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp____acrt_iob_func" in Funktion "_printf".
+     1>GE2D.lib(GLSLProgram.obj) : error LNK2001: Nicht aufgelöstes externes Symbol "__imp____acrt_iob_func".
+     1>GE2D.lib(Window.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp____stdio_common_vfprintf" in Funktion "__vfprintf_l".
+     1>GE2D.lib(GLSLProgram.obj) : error LNK2001: Nicht aufgelöstes externes Symbol "__imp____stdio_common_vfprintf".
+     1>GE2D.lib(GLSLProgram.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)" in Funktion ""public: virtual void * __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::`scalar deleting destructor'(unsigned int)" (??_G?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z)".
+     1>GE2D.lib(GLSLProgram.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp___invalid_parameter_noinfo" in Funktion "_memcpy_s".
+     1>GE2D.lib(GLSLProgram.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp___get_stream_buffer_pointers" in Funktion ""protected: void __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::_Init(struct _iobuf *,enum std::basic_filebuf<char,struct std::char_traits<char> >::_Initfl)" (?_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAEXPAU_iobuf@@W4_Initfl@12@@Z)".
+     1>GE2D.lib(GLSLProgram.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp____std_exception_copy" in Funktion ""public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)".
+     1>GE2D.lib(GLSLProgram.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__imp____std_exception_destroy" in Funktion ""public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)".
+     1>GE2D.lib(GLSLProgram.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""__declspec(dllimport) public: int __thiscall std::codecvt<char,char,struct _Mbstatet>::in(struct _Mbstatet &,char const *,char const *,char const * &,char *,char *,char * &)const " (__imp_?in@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAD3AAPAD@Z)" in Funktion ""protected: virtual int __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::uflow(void)" (?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ)".
+     1>GE2D.lib(GLSLProgram.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""__declspec(dllimport) public: int __thiscall std::codecvt<char,char,struct _Mbstatet>::out(struct _Mbstatet &,char const *,char const *,char const * &,char *,char *,char * &)const " (__imp_?out@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAD3AAPAD@Z)" in Funktion ""protected: virtual int __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::overflow(int)" (?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHH@Z)".
+     1>GE2D.lib(GLSLProgram.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""__declspec(dllimport) public: int __thiscall std::codecvt<char,char,struct _Mbstatet>::unshift(struct _Mbstatet &,char *,char *,char * &)const " (__imp_?unshift@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PAD1AAPAD@Z)" in Funktion ""protected: bool __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::_Endwrite(void)" (?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAE_NXZ)".
+     1>GE2D.lib(GLSLProgram.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""__declspec(dllimport) public: static unsigned int __cdecl std::codecvt<char,char,struct _Mbstatet>::_Getcat(class std::locale::facet const * *,class std::locale const *)" (__imp_?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SAIPAPBVfacet@locale@2@PBV42@@Z)" in Funktion ""class std::codecvt<char,char,struct _Mbstatet> const & __cdecl std::use_facet<class std::codecvt<char,char,struct _Mbstatet> >(class std::locale const &)" (??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAABV?$codecvt@DDU_Mbstatet@@@0@ABVlocale@0@@Z)".
+     1>GE2D.lib(GLSLProgram.obj) : error LNK2001: Nicht aufgelöstes externes Symbol ""__declspec(dllimport) public: static class std::locale::id std::codecvt<char,char,struct _Mbstatet>::id" (__imp_?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A)".
+     1>C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame\Debug\ZombieGame.exe : fatal error LNK1120: 12 nicht aufgelöste Externe
+     1>Die Erstellung des Projekts "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame\ZombieGame\ZombieGame.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:01.15

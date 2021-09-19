@@ -1,0 +1,442 @@
+﻿Der Buildvorgang wurde am 01.06.2016 21:47:47 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\SFML Box2d example\SFML Box2d example.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt DebugDraw.cpp GameKernel.cpp main.cpp Material.cpp QueryCallback.cpp
+         DebugDraw.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\sfml box2d example\sfml box2d example\DebugDraw.h(29): error C2504: "b2DebugDraw": Basisklasse undefiniert
+     1>DebugDraw.cpp(40): error C2259: "sf::Shape": Instanz von abstrakter Klasse kann nicht erstellt werden
+         DebugDraw.cpp(40): note: aufgrund folgender Member:
+         DebugDraw.cpp(40): note: "size_t sf::Shape::getPointCount(void) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(196): note: Siehe Deklaration von "sf::Shape::getPointCount"
+         DebugDraw.cpp(40): note: "sf::Vector2f sf::Shape::getPoint(size_t) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(213): note: Siehe Deklaration von "sf::Shape::getPoint"
+     1>DebugDraw.cpp(40): error C2248: "sf::Shape::Shape": Kein Zugriff auf protected Member, dessen Deklaration in der sf::Shape-Klasse erfolgte.
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(256): note: Siehe Deklaration von "sf::Shape::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(41): error C2039: "AddPoint": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(42): error C2039: "AddPoint": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(43): error C2039: "AddPoint": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(44): error C2039: "AddPoint": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(46): error C2039: "SetOutlineWidth": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(47): error C2039: "Draw": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>DebugDraw.cpp(55): error C2039: "SetFont": Ist kein Element von "sf::String"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/System/String.hpp(45): note: Siehe Deklaration von "sf::String"
+     1>DebugDraw.cpp(55): error C2039: "GetDefaultFont": Ist kein Element von "sf::Font"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Font.hpp(51): note: Siehe Deklaration von "sf::Font"
+     1>DebugDraw.cpp(55): error C3861: "GetDefaultFont": Bezeichner wurde nicht gefunden.
+     1>DebugDraw.cpp(56): error C2039: "SetSize": Ist kein Element von "sf::String"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/System/String.hpp(45): note: Siehe Deklaration von "sf::String"
+     1>DebugDraw.cpp(57): error C2039: "SetPosition": Ist kein Element von "sf::String"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/System/String.hpp(45): note: Siehe Deklaration von "sf::String"
+     1>DebugDraw.cpp(58): error C2039: "SetText": Ist kein Element von "sf::String"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/System/String.hpp(45): note: Siehe Deklaration von "sf::String"
+     1>DebugDraw.cpp(59): error C2039: "Draw": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>DebugDraw.cpp(70): error C2039: "position": Ist kein Element von "b2Transform"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\Box2D/Dynamics/b2WorldCallbacks.h(25): note: Siehe Deklaration von "b2Transform"
+     1>DebugDraw.cpp(70): error C2228: Links von ".x" müssen sich in einer Klasse/Struktur/Union befinden
+     1>DebugDraw.cpp(71): error C2039: "position": Ist kein Element von "b2Transform"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\Box2D/Dynamics/b2WorldCallbacks.h(25): note: Siehe Deklaration von "b2Transform"
+     1>DebugDraw.cpp(71): error C2228: Links von ".y" müssen sich in einer Klasse/Struktur/Union befinden
+     1>DebugDraw.cpp(72): warning C4305: "=": Verkürzung von "double" in "float"
+     1>DebugDraw.cpp(73): error C2039: "position": Ist kein Element von "b2Transform"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\Box2D/Dynamics/b2WorldCallbacks.h(25): note: Siehe Deklaration von "b2Transform"
+     1>DebugDraw.cpp(76): error C2039: "R": Ist kein Element von "b2Transform"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\Box2D/Dynamics/b2WorldCallbacks.h(25): note: Siehe Deklaration von "b2Transform"
+     1>DebugDraw.cpp(76): error C2228: Links von ".col1" müssen sich in einer Klasse/Struktur/Union befinden
+     1>DebugDraw.cpp(77): error C2259: "sf::Shape": Instanz von abstrakter Klasse kann nicht erstellt werden
+         DebugDraw.cpp(77): note: aufgrund folgender Member:
+         DebugDraw.cpp(77): note: "size_t sf::Shape::getPointCount(void) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(196): note: Siehe Deklaration von "sf::Shape::getPointCount"
+         DebugDraw.cpp(77): note: "sf::Vector2f sf::Shape::getPoint(size_t) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(213): note: Siehe Deklaration von "sf::Shape::getPoint"
+     1>DebugDraw.cpp(77): error C2039: "Line": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(77): error C3861: "Line": Bezeichner wurde nicht gefunden.
+     1>DebugDraw.cpp(80): error C2039: "R": Ist kein Element von "b2Transform"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\Box2D/Dynamics/b2WorldCallbacks.h(25): note: Siehe Deklaration von "b2Transform"
+     1>DebugDraw.cpp(80): error C2228: Links von ".col2" müssen sich in einer Klasse/Struktur/Union befinden
+     1>DebugDraw.cpp(81): error C2259: "sf::Shape": Instanz von abstrakter Klasse kann nicht erstellt werden
+         DebugDraw.cpp(81): note: aufgrund folgender Member:
+         DebugDraw.cpp(81): note: "size_t sf::Shape::getPointCount(void) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(196): note: Siehe Deklaration von "sf::Shape::getPointCount"
+         DebugDraw.cpp(81): note: "sf::Vector2f sf::Shape::getPoint(size_t) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(213): note: Siehe Deklaration von "sf::Shape::getPoint"
+     1>DebugDraw.cpp(81): error C2039: "Line": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(81): error C3861: "Line": Bezeichner wurde nicht gefunden.
+     1>DebugDraw.cpp(83): error C2039: "Draw": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>DebugDraw.cpp(84): error C2039: "Draw": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>DebugDraw.cpp(90): error C2259: "sf::Shape": Instanz von abstrakter Klasse kann nicht erstellt werden
+         DebugDraw.cpp(90): note: aufgrund folgender Member:
+         DebugDraw.cpp(90): note: "size_t sf::Shape::getPointCount(void) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(196): note: Siehe Deklaration von "sf::Shape::getPointCount"
+         DebugDraw.cpp(90): note: "sf::Vector2f sf::Shape::getPoint(size_t) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(213): note: Siehe Deklaration von "sf::Shape::getPoint"
+     1>DebugDraw.cpp(90): error C2039: "Line": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(90): error C3861: "Line": Bezeichner wurde nicht gefunden.
+     1>DebugDraw.cpp(91): error C2039: "EnableFill": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(92): error C2039: "Draw": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>DebugDraw.cpp(98): error C2259: "sf::Shape": Instanz von abstrakter Klasse kann nicht erstellt werden
+         DebugDraw.cpp(98): note: aufgrund folgender Member:
+         DebugDraw.cpp(98): note: "size_t sf::Shape::getPointCount(void) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(196): note: Siehe Deklaration von "sf::Shape::getPointCount"
+         DebugDraw.cpp(98): note: "sf::Vector2f sf::Shape::getPoint(size_t) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(213): note: Siehe Deklaration von "sf::Shape::getPoint"
+     1>DebugDraw.cpp(98): error C2039: "Circle": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(98): error C3861: "Circle": Bezeichner wurde nicht gefunden.
+     1>DebugDraw.cpp(102): error C2259: "sf::Shape": Instanz von abstrakter Klasse kann nicht erstellt werden
+         DebugDraw.cpp(102): note: aufgrund folgender Member:
+         DebugDraw.cpp(102): note: "size_t sf::Shape::getPointCount(void) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(196): note: Siehe Deklaration von "sf::Shape::getPointCount"
+         DebugDraw.cpp(102): note: "sf::Vector2f sf::Shape::getPoint(size_t) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(213): note: Siehe Deklaration von "sf::Shape::getPoint"
+     1>DebugDraw.cpp(102): error C2039: "Line": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(102): error C3861: "Line": Bezeichner wurde nicht gefunden.
+     1>DebugDraw.cpp(104): error C2039: "Draw": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>DebugDraw.cpp(105): error C2039: "Draw": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>DebugDraw.cpp(110): error C2259: "sf::Shape": Instanz von abstrakter Klasse kann nicht erstellt werden
+         DebugDraw.cpp(110): note: aufgrund folgender Member:
+         DebugDraw.cpp(110): note: "size_t sf::Shape::getPointCount(void) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(196): note: Siehe Deklaration von "sf::Shape::getPointCount"
+         DebugDraw.cpp(110): note: "sf::Vector2f sf::Shape::getPoint(size_t) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(213): note: Siehe Deklaration von "sf::Shape::getPoint"
+     1>DebugDraw.cpp(110): error C2039: "Circle": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(110): error C3861: "Circle": Bezeichner wurde nicht gefunden.
+     1>DebugDraw.cpp(111): error C2039: "EnableFill": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(112): error C2039: "Draw": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>DebugDraw.cpp(118): error C2259: "sf::Shape": Instanz von abstrakter Klasse kann nicht erstellt werden
+         DebugDraw.cpp(118): note: aufgrund folgender Member:
+         DebugDraw.cpp(118): note: "size_t sf::Shape::getPointCount(void) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(196): note: Siehe Deklaration von "sf::Shape::getPointCount"
+         DebugDraw.cpp(118): note: "sf::Vector2f sf::Shape::getPoint(size_t) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(213): note: Siehe Deklaration von "sf::Shape::getPoint"
+     1>DebugDraw.cpp(118): error C2248: "sf::Shape::Shape": Kein Zugriff auf protected Member, dessen Deklaration in der sf::Shape-Klasse erfolgte.
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(256): note: Siehe Deklaration von "sf::Shape::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(122): error C2039: "AddPoint": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(124): error C2039: "SetOutlineWidth": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(125): error C2039: "Draw": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>DebugDraw.cpp(130): error C2259: "sf::Shape": Instanz von abstrakter Klasse kann nicht erstellt werden
+         DebugDraw.cpp(130): note: aufgrund folgender Member:
+         DebugDraw.cpp(130): note: "size_t sf::Shape::getPointCount(void) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(196): note: Siehe Deklaration von "sf::Shape::getPointCount"
+         DebugDraw.cpp(130): note: "sf::Vector2f sf::Shape::getPoint(size_t) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(213): note: Siehe Deklaration von "sf::Shape::getPoint"
+     1>DebugDraw.cpp(130): error C2248: "sf::Shape::Shape": Kein Zugriff auf protected Member, dessen Deklaration in der sf::Shape-Klasse erfolgte.
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(256): note: Siehe Deklaration von "sf::Shape::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(134): error C2039: "AddPoint": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(136): error C2039: "SetOutlineWidth": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(137): error C2039: "EnableFill": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(138): error C2039: "Draw": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>DebugDraw.cpp(144): error C2259: "sf::Shape": Instanz von abstrakter Klasse kann nicht erstellt werden
+         DebugDraw.cpp(144): note: aufgrund folgender Member:
+         DebugDraw.cpp(144): note: "size_t sf::Shape::getPointCount(void) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(196): note: Siehe Deklaration von "sf::Shape::getPointCount"
+         DebugDraw.cpp(144): note: "sf::Vector2f sf::Shape::getPoint(size_t) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(213): note: Siehe Deklaration von "sf::Shape::getPoint"
+     1>DebugDraw.cpp(144): error C2248: "sf::Shape::Shape": Kein Zugriff auf protected Member, dessen Deklaration in der sf::Shape-Klasse erfolgte.
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(256): note: Siehe Deklaration von "sf::Shape::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(145): error C2259: "sf::Shape": Instanz von abstrakter Klasse kann nicht erstellt werden
+         DebugDraw.cpp(145): note: aufgrund folgender Member:
+         DebugDraw.cpp(145): note: "size_t sf::Shape::getPointCount(void) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(196): note: Siehe Deklaration von "sf::Shape::getPointCount"
+         DebugDraw.cpp(145): note: "sf::Vector2f sf::Shape::getPoint(size_t) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(213): note: Siehe Deklaration von "sf::Shape::getPoint"
+     1>DebugDraw.cpp(145): error C2248: "sf::Shape::Shape": Kein Zugriff auf protected Member, dessen Deklaration in der sf::Shape-Klasse erfolgte.
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(256): note: Siehe Deklaration von "sf::Shape::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(156): error C2039: "AddPoint": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(157): error C2039: "AddPoint": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(158): error C2039: "AddPoint": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(159): error C2039: "AddPoint": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(162): error C2039: "AddPoint": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(163): error C2039: "AddPoint": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(164): error C2039: "AddPoint": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(165): error C2039: "AddPoint": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(167): error C2259: "sf::Shape": Instanz von abstrakter Klasse kann nicht erstellt werden
+         DebugDraw.cpp(167): note: aufgrund folgender Member:
+         DebugDraw.cpp(167): note: "size_t sf::Shape::getPointCount(void) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(196): note: Siehe Deklaration von "sf::Shape::getPointCount"
+         DebugDraw.cpp(167): note: "sf::Vector2f sf::Shape::getPoint(size_t) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(213): note: Siehe Deklaration von "sf::Shape::getPoint"
+     1>DebugDraw.cpp(167): error C2039: "Line": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(167): error C3861: "Line": Bezeichner wurde nicht gefunden.
+     1>DebugDraw.cpp(168): error C2039: "EnableFill": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>DebugDraw.cpp(170): error C2039: "Draw": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>DebugDraw.cpp(171): error C2039: "Draw": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>DebugDraw.cpp(172): error C2039: "Draw": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+         GameKernel.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\sfml box2d example\sfml box2d example\DebugDraw.h(29): error C2504: "b2DebugDraw": Basisklasse undefiniert
+     1>GameKernel.cpp(30): error C2039: "SetFramerateLimit": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>GameKernel.cpp(31): error C2039: "UseVerticalSync": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>GameKernel.cpp(35): error C2661: "b2World::b2World": Keine überladene Funktion akzeptiert 2 Argumente
+     1>GameKernel.cpp(69): error C2653: "b2DebugDraw": Keine Klasse oder Namespace
+     1>GameKernel.cpp(69): error C2065: "e_shapeBit": nichtdeklarierter Bezeichner
+     1>GameKernel.cpp(76): error C2039: "SetFlags": Ist kein Element von "DebugDraw"
+         c:\users\oliver\documents\visual studio 2015\projects\c++\sfml box2d example\sfml box2d example\DebugDraw.h(28): note: Siehe Deklaration von "DebugDraw"
+     1>GameKernel.cpp(77): error C2664: "void b2World::SetDebugDraw(b2Draw *)" : Konvertierung von Argument 1 von "DebugDraw *" in "b2Draw *" nicht möglich
+         GameKernel.cpp(77): note: Die Typen, auf die verwiesen wird, sind nicht verknüpft; die Konvertierung erfordert einen reinterpret_cast-Operator oder eine Typumwandlung im C- oder Funktionsformat.
+     1>GameKernel.cpp(108): warning C4244: "=": Konvertierung von "double" in "float32", möglicher Datenverlust
+     1>GameKernel.cpp(158): warning C4244: "=": Konvertierung von "double" in "float32", möglicher Datenverlust
+     1>GameKernel.cpp(279): error C3083: "Randomizer": Das Symbol links neben "::" muss ein Typ sein.
+     1>GameKernel.cpp(279): error C2039: "SetSeed": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>GameKernel.cpp(279): error C3861: "SetSeed": Bezeichner wurde nicht gefunden.
+     1>GameKernel.cpp(280): error C3083: "Randomizer": Das Symbol links neben "::" muss ein Typ sein.
+     1>GameKernel.cpp(280): error C2039: "Random": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>GameKernel.cpp(280): error C3861: "Random": Bezeichner wurde nicht gefunden.
+     1>GameKernel.cpp(288): error C2039: "LoadFromFile": Ist kein Element von "sf::Image"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Image.hpp(47): note: Siehe Deklaration von "sf::Image"
+     1>GameKernel.cpp(289): error C2039: "SetIcon": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>GameKernel.cpp(289): error C2039: "GetWidth": Ist kein Element von "sf::Image"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Image.hpp(47): note: Siehe Deklaration von "sf::Image"
+     1>GameKernel.cpp(289): error C2039: "GetHeight": Ist kein Element von "sf::Image"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Image.hpp(47): note: Siehe Deklaration von "sf::Image"
+     1>GameKernel.cpp(289): error C2039: "GetPixelsPtr": Ist kein Element von "sf::Image"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Image.hpp(47): note: Siehe Deklaration von "sf::Image"
+     1>GameKernel.cpp(298): error C2039: "LoadFromFile": Ist kein Element von "sf::Image"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Image.hpp(47): note: Siehe Deklaration von "sf::Image"
+     1>GameKernel.cpp(299): error C2039: "SetImage": Ist kein Element von "sf::Sprite"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Sprite.hpp(47): note: Siehe Deklaration von "sf::Sprite"
+     1>GameKernel.cpp(300): error C2039: "SetPosition": Ist kein Element von "sf::Sprite"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Sprite.hpp(47): note: Siehe Deklaration von "sf::Sprite"
+     1>GameKernel.cpp(301): error C2039: "Resize": Ist kein Element von "sf::Sprite"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Sprite.hpp(47): note: Siehe Deklaration von "sf::Sprite"
+     1>GameKernel.cpp(304): error C2039: "SetColor": Ist kein Element von "sf::Sprite"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Sprite.hpp(47): note: Siehe Deklaration von "sf::Sprite"
+     1>GameKernel.cpp(314): error C2039: "GetFrameTime": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+         main.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\sfml box2d example\sfml box2d example\DebugDraw.h(29): error C2504: "b2DebugDraw": Basisklasse undefiniert
+     1>main.cpp(56): error C2039: "Input": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(56): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+     1>main.cpp(56): error C2143: Syntaxfehler: Es fehlt ";" vor "&"
+     1>main.cpp(56): error C2065: "input": nichtdeklarierter Bezeichner
+     1>main.cpp(56): error C2039: "GetInput": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>main.cpp(57): error C2259: "sf::Shape": Instanz von abstrakter Klasse kann nicht erstellt werden
+         main.cpp(57): note: aufgrund folgender Member:
+         main.cpp(57): note: "size_t sf::Shape::getPointCount(void) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(196): note: Siehe Deklaration von "sf::Shape::getPointCount"
+         main.cpp(57): note: "sf::Vector2f sf::Shape::getPoint(size_t) const": ist abstrakt
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(213): note: Siehe Deklaration von "sf::Shape::getPoint"
+     1>main.cpp(57): error C2248: "sf::Shape::Shape": Kein Zugriff auf protected Member, dessen Deklaration in der sf::Shape-Klasse erfolgte.
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(256): note: Siehe Deklaration von "sf::Shape::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>main.cpp(85): error C2039: "IsOpened": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>main.cpp(88): error C2039: "GetEvent": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>main.cpp(91): error C2039: "Type": Ist kein Element von "sf::Event"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Window/Window.hpp(51): note: Siehe Deklaration von "sf::Event"
+     1>main.cpp(92): error C2039: "Close": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>main.cpp(94): error C2039: "Type": Ist kein Element von "sf::Event"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Window/Window.hpp(51): note: Siehe Deklaration von "sf::Event"
+     1>main.cpp(97): error C2039: "Key": Ist kein Element von "sf::Event"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Window/Window.hpp(51): note: Siehe Deklaration von "sf::Event"
+     1>main.cpp(97): error C2228: Links von ".Code" müssen sich in einer Klasse/Struktur/Union befinden
+     1>main.cpp(100): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(100): error C2039: "Escape": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(100): error C2065: "Escape": nichtdeklarierter Bezeichner
+     1>main.cpp(100): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(100): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(100): note: siehe Verwendung von "Escape"
+     1>main.cpp(100): error C2039: "Close": Ist kein Element von "sf::RenderWindow"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/RenderWindow.hpp(44): note: Siehe Deklaration von "sf::RenderWindow"
+     1>main.cpp(103): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(103): error C2039: "Space": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(103): error C2065: "Space": nichtdeklarierter Bezeichner
+     1>main.cpp(103): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(103): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(103): note: siehe Verwendung von "Space"
+     1>main.cpp(112): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(112): error C2039: "Return": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(112): error C2065: "Return": nichtdeklarierter Bezeichner
+     1>main.cpp(112): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(112): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(112): note: siehe Verwendung von "Return"
+     1>main.cpp(121): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(121): error C2039: "I": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(121): error C2065: "I": nichtdeklarierter Bezeichner
+     1>main.cpp(121): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(121): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(121): note: siehe Verwendung von "I"
+     1>main.cpp(130): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(130): error C2039: "S": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(130): error C2065: "S": nichtdeklarierter Bezeichner
+     1>main.cpp(130): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(130): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(130): note: siehe Verwendung von "S"
+     1>main.cpp(139): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(139): error C2039: "P": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(139): error C2065: "P": nichtdeklarierter Bezeichner
+     1>main.cpp(139): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(139): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(139): note: siehe Verwendung von "P"
+     1>main.cpp(148): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(148): error C2039: "G": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(148): error C2065: "G": nichtdeklarierter Bezeichner
+     1>main.cpp(148): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(148): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(148): note: siehe Verwendung von "G"
+     1>main.cpp(156): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(156): error C2039: "H": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(156): error C2065: "H": nichtdeklarierter Bezeichner
+     1>main.cpp(156): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(156): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(156): note: siehe Verwendung von "H"
+     1>main.cpp(171): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(171): error C2039: "Num1": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(171): error C2065: "Num1": nichtdeklarierter Bezeichner
+     1>main.cpp(171): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(171): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(171): note: siehe Verwendung von "Num1"
+     1>main.cpp(172): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(172): error C2039: "Num2": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(172): error C2065: "Num2": nichtdeklarierter Bezeichner
+     1>main.cpp(172): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(172): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(172): note: siehe Verwendung von "Num2"
+     1>main.cpp(173): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(173): error C2039: "Num3": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(173): error C2065: "Num3": nichtdeklarierter Bezeichner
+     1>main.cpp(173): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(173): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(173): note: siehe Verwendung von "Num3"
+     1>main.cpp(174): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(174): error C2039: "Num4": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(174): error C2065: "Num4": nichtdeklarierter Bezeichner
+     1>main.cpp(174): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(174): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(174): note: siehe Verwendung von "Num4"
+     1>main.cpp(175): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(175): error C2039: "Num5": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(175): error C2065: "Num5": nichtdeklarierter Bezeichner
+     1>main.cpp(175): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(175): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(175): note: siehe Verwendung von "Num5"
+     1>main.cpp(176): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(176): error C2039: "Num6": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(176): error C2065: "Num6": nichtdeklarierter Bezeichner
+     1>main.cpp(176): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(176): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(176): note: siehe Verwendung von "Num6"
+     1>main.cpp(177): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(177): error C2039: "Num7": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(177): error C2065: "Num7": nichtdeklarierter Bezeichner
+     1>main.cpp(177): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(177): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(177): note: siehe Verwendung von "Num7"
+     1>main.cpp(178): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(178): error C2039: "Num8": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(178): error C2065: "Num8": nichtdeklarierter Bezeichner
+     1>main.cpp(178): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(178): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(178): note: siehe Verwendung von "Num8"
+     1>main.cpp(179): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(179): error C2039: "Num9": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(179): error C2065: "Num9": nichtdeklarierter Bezeichner
+     1>main.cpp(179): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(179): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(179): note: siehe Verwendung von "Num9"
+     1>main.cpp(180): error C3083: "Key": Das Symbol links neben "::" muss ein Typ sein.
+     1>main.cpp(180): error C2039: "Num0": Ist kein Element von "sf"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Text.hpp(42): note: Siehe Deklaration von "sf"
+     1>main.cpp(180): error C2065: "Num0": nichtdeklarierter Bezeichner
+     1>main.cpp(180): error C2131: Ausdruck wurde nicht zu einer Konstanten ausgewertet.
+         main.cpp(180): note: Fehler wurde durch Argumente ohne Konstante oder einen Verweis auf ein Symbol ohne Konstante verursacht
+         main.cpp(180): note: siehe Verwendung von "Num0"
+     1>main.cpp(183): error C2039: "Type": Ist kein Element von "sf::Event"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Window/Window.hpp(51): note: Siehe Deklaration von "sf::Event"
+     1>main.cpp(187): error C2065: "input": nichtdeklarierter Bezeichner
+     1>main.cpp(187): error C2228: Links von ".GetMouseX" müssen sich in einer Klasse/Struktur/Union befinden
+         main.cpp(187): note: Typ ist "unknown-type"
+     1>main.cpp(188): error C2065: "input": nichtdeklarierter Bezeichner
+     1>main.cpp(188): error C2228: Links von ".GetMouseY" müssen sich in einer Klasse/Struktur/Union befinden
+         main.cpp(188): note: Typ ist "unknown-type"
+     1>main.cpp(192): error C2039: "MouseButton": Ist kein Element von "sf::Event"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Window/Window.hpp(51): note: Siehe Deklaration von "sf::Event"
+     1>main.cpp(192): error C2228: Links von ".Button" müssen sich in einer Klasse/Struktur/Union befinden
+     1>main.cpp(230): error C2039: "Type": Ist kein Element von "sf::Event"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Window/Window.hpp(51): note: Siehe Deklaration von "sf::Event"
+     1>main.cpp(232): error C2065: "input": nichtdeklarierter Bezeichner
+     1>main.cpp(232): error C2228: Links von ".GetMouseX" müssen sich in einer Klasse/Struktur/Union befinden
+         main.cpp(232): note: Typ ist "unknown-type"
+     1>main.cpp(233): error C2065: "input": nichtdeklarierter Bezeichner
+     1>main.cpp(233): error C2228: Links von ".GetMouseY" müssen sich in einer Klasse/Struktur/Union befinden
+         main.cpp(233): note: Typ ist "unknown-type"
+     1>main.cpp(238): error C2039: "Rectangle": Ist kein Element von "sf::Shape"
+         C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\deps\include\SFML/Graphics/Shape.hpp(44): note: Siehe Deklaration von "sf::Shape"
+     1>main.cpp(238): error C3861: "Rectangle": Bezeichner wurde nicht gefunden.
+     1>main.cpp(238): fatal error C1003: Mehr als 100 Fehler gefunden; Kompilierung wird abgebrochen.
+         Material.cpp
+         QueryCallback.cpp
+     1>Die Erstellung des Projekts "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\SFML Box2d example\SFML Box2d example.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:01.11

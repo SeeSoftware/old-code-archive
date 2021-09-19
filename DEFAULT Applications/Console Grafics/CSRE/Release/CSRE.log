@@ -1,0 +1,13 @@
+﻿Der Buildvorgang wurde am 09.12.2015 13:01:58 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\CSRE\CSRE.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\CSRE.pdb" /Gd /TP /analyze- /errorReport:prompt Render.cpp
+         Render.cpp
+       Lib:
+         D:\VirsualStudio2015\VC\bin\Lib.exe /OUT:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\Release\CSRE.lib" /NOLOGO /LTCG Release\Render.obj
+         CSRE.vcxproj -> C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\Release\CSRE.lib
+     1>Die Erstellung von Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\CSRE\CSRE.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:01.02

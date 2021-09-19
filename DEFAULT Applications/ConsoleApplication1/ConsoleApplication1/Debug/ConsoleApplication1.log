@@ -1,0 +1,16 @@
+﻿Der Buildvorgang wurde am 12.10.2016 16:08:17 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\OLD stuff\DEFAULT Applications\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication1.cpp
+         ConsoleApplication1.cpp
+       Link:
+         D:\VirsualStudio2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\OLD stuff\DEFAULT Applications\ConsoleApplication1\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\OLD stuff\DEFAULT Applications\ConsoleApplication1\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\OLD stuff\DEFAULT Applications\ConsoleApplication1\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\ConsoleApplication1.obj
+         Debug\stdafx.obj
+         ConsoleApplication1.vcxproj -> C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\OLD stuff\DEFAULT Applications\ConsoleApplication1\Debug\ConsoleApplication1.exe
+     1>Die Erstellung von Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\OLD stuff\DEFAULT Applications\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:01.74

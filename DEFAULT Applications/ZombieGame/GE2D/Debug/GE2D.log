@@ -1,0 +1,44 @@
+﻿Der Buildvorgang wurde am 25.11.2015 22:00:39 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame\GE2D\GE2D.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\GE2D.pdb" /Gd /TP /analyze- /errorReport:prompt Camera2D.cpp Errors.cpp GE2D.cpp GLSLProgram.cpp ImageLoader.cpp InputManager.cpp ResourceManager.cpp Sprite.cpp SpriteBatch.cpp TextureCache.cpp Timing.cpp Window.cpp
+         Window.cpp
+         Timing.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\zombiegame\ge2d\timing.cpp(24): warning C4244: "Initialisierung": Konvertierung von "Uint32" in "float", möglicher Datenverlust
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\zombiegame\ge2d\timing.cpp(45): warning C4244: "Initialisierung": Konvertierung von "Uint32" in "float", möglicher Datenverlust
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\zombiegame\ge2d\timing.cpp(48): warning C4244: "Initialisierung": Konvertierung von "Uint32" in "float", möglicher Datenverlust
+         TextureCache.cpp
+         SpriteBatch.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\zombiegame\ge2d\spritebatch.cpp(25): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\zombiegame\ge2d\spritebatch.cpp(67): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\zombiegame\ge2d\spritebatch.cpp(101): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+         Sprite.cpp
+         ResourceManager.cpp
+         InputManager.cpp
+         ImageLoader.cpp
+         GLSLProgram.cpp
+         GE2D.cpp
+         Errors.cpp
+         Camera2D.cpp
+         Code wird generiert...
+       Lib:
+         D:\VirsualStudio2015\VC\bin\Lib.exe /OUT:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame\Debug\GE2D.lib" /NOLOGO Debug\Camera2D.obj
+         Debug\Errors.obj
+         Debug\GE2D.obj
+         Debug\GLSLProgram.obj
+         Debug\ImageLoader.obj
+         Debug\InputManager.obj
+         Debug\IOManager.obj
+         Debug\picoPNG.obj
+         Debug\ResourceManager.obj
+         Debug\Sprite.obj
+         Debug\SpriteBatch.obj
+         Debug\TextureCache.obj
+         Debug\Timing.obj
+         Debug\Window.obj
+         GE2D.vcxproj -> C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame\Debug\GE2D.lib
+     1>Die Erstellung von Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame\GE2D\GE2D.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:04.59

@@ -1,0 +1,27 @@
+﻿Der Buildvorgang wurde am 21.12.2015 17:26:08 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\sfml GameEngine Test\GESFML\GESFML.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\GESFML.pdb" /Gd /TP /analyze- /errorReport:prompt SpriteBatch.cpp
+         SpriteBatch.cpp
+     1>SpriteBatch.cpp(21): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(22): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(31): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(67): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(75): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(79): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(91): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+     1>SpriteBatch.cpp(95): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+     1>SpriteBatch.cpp(99): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+       Lib:
+         D:\VirsualStudio2015\VC\bin\Lib.exe /OUT:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\sfml GameEngine Test\Release\GESFML.lib" "sfml-main.lib" "sfml-window.lib" "sfml-graphics.lib" "sfml-system.lib" /NOLOGO /LTCG Release\InputManager.obj
+         Release\SpriteBatch.obj
+         Release\Tools.obj
+     1>sfml-graphics.lib(sfml-graphics-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ist bereits in "sfml-window.lib(sfml-window-2.dll)" definiert; zweite Definition wird ignoriert.
+     1>sfml-system.lib(sfml-system-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ist bereits in "sfml-window.lib(sfml-window-2.dll)" definiert; zweite Definition wird ignoriert.
+         GESFML.vcxproj -> C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\sfml GameEngine Test\Release\GESFML.lib
+     1>Die Erstellung von Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\sfml GameEngine Test\GESFML\GESFML.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:01.05

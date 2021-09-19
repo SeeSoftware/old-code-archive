@@ -1,0 +1,20 @@
+﻿Der Buildvorgang wurde am 11.12.2015 21:02:56 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\Console Grafics\Console Grafics.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MainClass.cpp
+         MainClass.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\console grafics\console grafics\mainclass.cpp(135): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\console grafics\console grafics\mainclass.cpp(206): warning C4244: "=": Konvertierung von "double" in "byte", möglicher Datenverlust
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\console grafics\console grafics\mainclass.cpp(207): warning C4244: "=": Konvertierung von "double" in "byte", möglicher Datenverlust
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\console grafics\console grafics\mainclass.cpp(208): warning C4244: "=": Konvertierung von "double" in "byte", möglicher Datenverlust
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\console grafics\console grafics\mainclass.cpp(254): warning C4244: "Argument": Konvertierung von "time_t" in "unsigned int", möglicher Datenverlust
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\console grafics\console grafics\mainclass.cpp(446): warning C4244: "Argument": Konvertierung von "time_t" in "unsigned int", möglicher Datenverlust
+       Link:
+         D:\VirsualStudio2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\Debug\Console Grafics.exe" /INCREMENTAL /NOLOGO CSRE.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\Debug\Console Grafics.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\Debug\Console Grafics.lib" /MACHINE:X86 Debug\main.obj
+         Debug\MainClass.obj
+         Console Grafics.vcxproj -> C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\Debug\Console Grafics.exe
+     1>Die Erstellung von Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\Console Grafics\Console Grafics.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:00.92

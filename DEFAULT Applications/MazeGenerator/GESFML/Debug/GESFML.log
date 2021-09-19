@@ -1,0 +1,20 @@
+﻿Der Buildvorgang wurde am 18.01.2016 21:46:27 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame2\GESFML\GESFML.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\GESFML.pdb" /Gd /TP /analyze- /errorReport:prompt Box2DEntBatch.cpp Entity.cpp InputManager.cpp SpriteBatch.cpp Tools.cpp
+         Tools.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\zombiegame2\gesfml\tools.h(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SFML\Graphics.hpp": No such file or directory
+         SpriteBatch.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\zombiegame2\gesfml\spritebatch.h(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SFML\Graphics.hpp": No such file or directory
+         InputManager.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\zombiegame2\gesfml\inputmanager.h(3): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SFML\Graphics.hpp": No such file or directory
+         Entity.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\zombiegame2\gesfml\entity.h(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SFML\Graphics.hpp": No such file or directory
+         Box2DEntBatch.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\zombiegame2\gesfml\spritebatch.h(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SFML\Graphics.hpp": No such file or directory
+         Code wird generiert...
+     1>Die Erstellung des Projekts "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\ZombieGame2\GESFML\GESFML.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:00.26

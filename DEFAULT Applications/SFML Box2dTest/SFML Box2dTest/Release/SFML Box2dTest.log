@@ -1,0 +1,19 @@
+﻿Der Buildvorgang wurde am 23.12.2015 02:08:06 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2dTest\SFML Box2dTest\SFML Box2dTest.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
+       Link:
+         D:\VirsualStudio2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2dTest\Release\SFML Box2dTest.exe" /NOLOGO /LIBPATH:./deps/lib GESFML.lib "sfml-main.lib" "sfml-window.lib" "sfml-graphics.lib" "sfml-system.lib" Box2D.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2dTest\Release\SFML Box2dTest.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2dTest\Release\SFML Box2dTest.lib" /MACHINE:X86 /SAFESEH Release\Game.obj
+         Release\main.obj
+         Code wird generiert.
+         2 of 699 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           2 functions had inline decision re-evaluated but remain unchanged
+         Codegenerierung ist abgeschlossen.
+         SFML Box2dTest.vcxproj -> C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2dTest\Release\SFML Box2dTest.exe
+     1>Die Erstellung von Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2dTest\SFML Box2dTest\SFML Box2dTest.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:00.97

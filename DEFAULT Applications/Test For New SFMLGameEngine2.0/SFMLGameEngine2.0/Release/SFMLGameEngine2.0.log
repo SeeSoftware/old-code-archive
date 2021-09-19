@@ -1,0 +1,51 @@
+﻿Der Buildvorgang wurde am 17.06.2016 18:16:49 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Test For New SFMLGameEngine2.0\SFMLGameEngine2.0\SFMLGameEngine2.0.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\SFMLGameEngine2.0.pdb" /Gd /TP /analyze- /errorReport:prompt ContactListener.cpp HelperFunctions.cpp InputManager.cpp SpriteBatch.cpp VectorFunctions.cpp Window.cpp
+         ContactListener.cpp
+     1>ContactListener.cpp(140): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+     1>ContactListener.cpp(154): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+         HelperFunctions.cpp
+     1>HelperFunctions.cpp(60): warning C4244: "Argument": Konvertierung von "__int64" in "int", möglicher Datenverlust
+         InputManager.cpp
+         SpriteBatch.cpp
+     1>SpriteBatch.cpp(60): warning C4244: "=": Konvertierung von "double" in "float32", möglicher Datenverlust
+     1>SpriteBatch.cpp(187): warning C4244: "=": Konvertierung von "double" in "float32", möglicher Datenverlust
+     1>SpriteBatch.cpp(206): warning C4244: "=": Konvertierung von "double" in "float32", möglicher Datenverlust
+     1>SpriteBatch.cpp(208): warning C4244: "=": Konvertierung von "double" in "float32", möglicher Datenverlust
+     1>SpriteBatch.cpp(209): warning C4244: "=": Konvertierung von "double" in "float32", möglicher Datenverlust
+     1>SpriteBatch.cpp(228): warning C4244: "=": Konvertierung von "double" in "float32", möglicher Datenverlust
+     1>SpriteBatch.cpp(691): warning C4244: "Argument": Konvertierung von "unsigned int" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(694): warning C4244: "Argument": Konvertierung von "unsigned int" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(1141): warning C4244: "Argument": Konvertierung von "float" in "unsigned int", möglicher Datenverlust
+     1>SpriteBatch.cpp(1194): warning C4244: "Argument": Konvertierung von "float" in "unsigned int", möglicher Datenverlust
+     1>SpriteBatch.cpp(1258): warning C4244: "return": Konvertierung von "unsigned int" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(1476): warning C4244: "Argument": Konvertierung von "unsigned int" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(1479): warning C4244: "Argument": Konvertierung von "unsigned int" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(1497): warning C4244: "Argument": Konvertierung von "double" in "float32", möglicher Datenverlust
+     1>SpriteBatch.cpp(1960): warning C4244: "Argument": Konvertierung von "double" in "float32", möglicher Datenverlust
+     1>SpriteBatch.cpp(1981): warning C4244: "Argument": Konvertierung von "double" in "float32", möglicher Datenverlust
+     1>SpriteBatch.cpp(2011): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(2013): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(2015): warning C4244: "Argument": Konvertierung von "double" in "float32", möglicher Datenverlust
+     1>SpriteBatch.cpp(2065): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(2067): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
+     1>SpriteBatch.cpp(2198): warning C4244: "Argument": Konvertierung von "double" in "float32", möglicher Datenverlust
+     1>SpriteBatch.cpp(2206): warning C4244: "Argument": Konvertierung von "double" in "float32", möglicher Datenverlust
+         VectorFunctions.cpp
+         Window.cpp
+       Lib:
+         D:\VirsualStudio2015\VC\bin\Lib.exe /OUT:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Test For New SFMLGameEngine2.0\Release\SFMLGameEngine2.0.lib" "sfml-main.lib" "sfml-window.lib" "sfml-graphics.lib" "sfml-system.lib" Box2D.lib /NOLOGO /LTCG Release\ContactListener.obj
+         Release\HelperFunctions.obj
+         Release\InputManager.obj
+         Release\SpriteBatch.obj
+         Release\VectorFunctions.obj
+         Release\Window.obj
+     1>sfml-graphics.lib(sfml-graphics-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ist bereits in "sfml-window.lib(sfml-window-2.dll)" definiert; zweite Definition wird ignoriert.
+     1>sfml-system.lib(sfml-system-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ist bereits in "sfml-window.lib(sfml-window-2.dll)" definiert; zweite Definition wird ignoriert.
+         SFMLGameEngine2.0.vcxproj -> C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Test For New SFMLGameEngine2.0\Release\SFMLGameEngine2.0.lib
+     1>Die Erstellung von Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Test For New SFMLGameEngine2.0\SFMLGameEngine2.0\SFMLGameEngine2.0.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:03.44

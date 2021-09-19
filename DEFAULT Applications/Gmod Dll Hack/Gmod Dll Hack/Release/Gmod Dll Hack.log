@@ -1,0 +1,15 @@
+﻿Der Buildvorgang wurde am 04.07.2016 01:27:00 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Gmod Dll Hack\Gmod Dll Hack\Gmod Dll Hack.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /I"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Gmod Dll Hack\Gmod Headers\include\GarrysMod\Lua" /Zi /nologo /Wall /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D GMODDLLHACK_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\gmod dll hack\gmod headers\include\garrysmod\lua\UserData.h(13): warning C4820: "GarrysMod::Lua::UserData": 3 Bytes Abstand hinter Datenmember  "GarrysMod::Lua::UserData::type" hinzugefügt.
+     1>C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Gmod Dll Hack\Gmod Headers\include\GarrysMod\Lua\Interface.h(15): warning C4820: "lua_State": 3 Bytes Abstand hinter Datenmember  "lua_State::_ignore_this_common_lua_header_" hinzugefügt.
+     1>Main.cpp(23): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+     1>Main.cpp(24): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>Die Erstellung des Projekts "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Gmod Dll Hack\Gmod Dll Hack\Gmod Dll Hack.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:00.27

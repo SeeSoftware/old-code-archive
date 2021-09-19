@@ -1,0 +1,16 @@
+﻿Der Buildvorgang wurde am 20.12.2015 21:13:13 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\Console Grafics\Console Grafics.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>Link:
+         D:\VirsualStudio2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\Release\Console Grafics.exe" /NOLOGO CSRE.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\Release\Console Grafics.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\Release\Console Grafics.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\MainClass.obj
+         Code wird generiert.
+         0 of 183 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Codegenerierung ist abgeschlossen.
+         Console Grafics.vcxproj -> C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\Release\Console Grafics.exe
+     1>Die Erstellung von Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\Console Grafics\Console Grafics\Console Grafics.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:00.65

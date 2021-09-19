@@ -1,0 +1,29 @@
+﻿Der Buildvorgang wurde am 22.11.2015 19:42:45 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\2dGameEngine\2dGameEngine\2dGameEngine.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Errors.cpp GLSLProgram.cpp ImageLoader.cpp IOManager.cpp main.cpp MainGame.cpp picoPNG.cpp ResourceManager.cpp Sprite.cpp TextureCache.cpp
+         Errors.cpp
+     1>Errors.cpp(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL/SDL.h": No such file or directory
+         GLSLProgram.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\2dgameengine\2dgameengine\GLSLProgram.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "GL/glew.h": No such file or directory
+         ImageLoader.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\2dgameengine\2dgameengine\GLTexture.h(3): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "GL\glew.h": No such file or directory
+         IOManager.cpp
+     1>IOManager.cpp(18): warning C4244: "Initialisierung": Konvertierung von "std::streamoff" in "int", möglicher Datenverlust
+     1>IOManager.cpp(22): warning C4244: "-=": Konvertierung von "std::streamoff" in "int", möglicher Datenverlust
+         main.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\2dgameengine\2dgameengine\MainGame.h(3): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL/SDL.h": No such file or directory
+         MainGame.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\2dgameengine\2dgameengine\MainGame.h(3): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL/SDL.h": No such file or directory
+         picoPNG.cpp
+         ResourceManager.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\2dgameengine\2dgameengine\GLTexture.h(3): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "GL\glew.h": No such file or directory
+         Sprite.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\2dgameengine\2dgameengine\Sprite.h(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "GL/glew.h": No such file or directory
+         TextureCache.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\2dgameengine\2dgameengine\GLTexture.h(3): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "GL\glew.h": No such file or directory
+     1>Die Erstellung des Projekts "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\2dGameEngine\2dGameEngine\2dGameEngine.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:01.41

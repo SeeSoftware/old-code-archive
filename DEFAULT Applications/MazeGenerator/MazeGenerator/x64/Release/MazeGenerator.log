@@ -1,0 +1,13 @@
+﻿Der Buildvorgang wurde am 23.01.2016 18:56:46 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\MazeGenerator\MazeGenerator\MazeGenerator.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt Game.cpp main.cpp
+         Game.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\mazegenerator\mazegenerator\Game.h(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "GESFML\Tools.h": No such file or directory
+         main.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\mazegenerator\mazegenerator\Game.h(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "GESFML\Tools.h": No such file or directory
+     1>Die Erstellung des Projekts "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\MazeGenerator\MazeGenerator\MazeGenerator.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:00.07

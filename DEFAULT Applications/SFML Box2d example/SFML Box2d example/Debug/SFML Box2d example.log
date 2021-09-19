@@ -1,0 +1,19 @@
+﻿Der Buildvorgang wurde am 01.06.2016 21:47:19 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\SFML Box2d example\SFML Box2d example.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt DebugDraw.cpp GameKernel.cpp main.cpp Material.cpp QueryCallback.cpp
+         QueryCallback.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\sfml box2d example\sfml box2d example\querycallback.h(22): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "Box2D/Box2D.h": No such file or directory
+         Material.cpp
+         main.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\sfml box2d example\sfml box2d example\main.cpp(18): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SFML/System.hpp": No such file or directory
+         GameKernel.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\sfml box2d example\sfml box2d example\gamekernel.h(21): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SFML/System.hpp": No such file or directory
+         DebugDraw.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\sfml box2d example\sfml box2d example\debugdraw.h(22): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "Box2D/Box2D.h": No such file or directory
+         Code wird generiert...
+     1>Die Erstellung des Projekts "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\SFML Box2d example\SFML Box2d example\SFML Box2d example.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:00.25

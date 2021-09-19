@@ -1,0 +1,11 @@
+﻿Der Buildvorgang wurde am 23.12.2015 02:14:42 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\2DMinecraft\2DMinecraft\2DMinecraft.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
+     1>c:\users\oliver\documents\visual studio 2015\projects\c++\2dminecraft\2dminecraft\game.h(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "": No such file or directory
+     1>Die Erstellung des Projekts "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\2DMinecraft\2DMinecraft\2DMinecraft.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:00.06

@@ -1,0 +1,17 @@
+﻿Der Buildvorgang wurde am 18.12.2015 23:42:14 gestartet.
+     1>Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\sfml Maze Generator\GESFML\GESFML.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\VirsualStudio2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\GESFML.pdb" /Gd /TP /analyze- /errorReport:prompt Texture.cpp
+         Texture.cpp
+       Lib:
+         D:\VirsualStudio2015\VC\bin\Lib.exe /OUT:"C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\sfml Maze Generator\Release\GESFML.lib" "sfml-main.lib" "sfml-window.lib" "sfml-graphics.lib" "sfml-system.lib" /NOLOGO /LTCG Release\Entity.obj
+         Release\Texture.obj
+         Release\Window.obj
+     1>sfml-graphics.lib(sfml-graphics-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ist bereits in "sfml-window.lib(sfml-window-2.dll)" definiert; zweite Definition wird ignoriert.
+     1>sfml-system.lib(sfml-system-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ist bereits in "sfml-window.lib(sfml-window-2.dll)" definiert; zweite Definition wird ignoriert.
+         GESFML.vcxproj -> C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\sfml Maze Generator\Release\GESFML.lib
+     1>Die Erstellung von Projekt "C:\Users\Oliver\Documents\Visual Studio 2015\Projects\C++\sfml Maze Generator\GESFML\GESFML.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:00.55
